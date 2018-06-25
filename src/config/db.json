@@ -1,7 +1,7 @@
 [
   {
     "codename": "GE32",
-    "type": "ME",
+    "type": ["ME"],
     "classes": [
       {
         "type": "CM",
@@ -15,7 +15,7 @@
         "type": "TD",
         "group": 1,
         "onWeekday": 2,
-        "startTime": "1600",
+        "startTime": "1800",
         "endTime": "1930",
         "room": "B207"
       },
@@ -32,14 +32,14 @@
         "group": 3,
         "onWeekday": 5,
         "startTime": "1730",
-        "endTime": "1930",
+        "endTime": "1900",
         "room": "B207"
       }
     ]
   },
   {
     "codename": "GE34",
-    "type": "ME",
+    "type": ["ME"],
     "classes": [
       {
         "type": "CM",
@@ -77,7 +77,7 @@
   },
   {
     "codename": "APP10",
-    "type": "ME",
+    "type": ["ME"],
     "classes": [
       {
         "type": "CM",
@@ -86,6 +86,44 @@
         "startTime": "1200",
         "endTime": "1500",
         "room": "N101"
+      }
+    ]
+  },
+  {
+    "codename": "IF11",
+    "type": ["ISI", "TM"],
+    "classes": [
+      {
+        "type": "CM",
+        "group": 1,
+        "onWeekday": 3,
+        "startTime": "0800",
+        "endTime": "1000",
+        "room": "S203"
+      },
+      {
+        "type": "TD",
+        "group": 1,
+        "onWeekday": 4,
+        "startTime": "1400",
+        "endTime": "1600",
+        "room": "S203"
+      },
+      {
+        "type": "TP",
+        "group": 1,
+        "onWeekday": 4,
+        "startTime": "1600",
+        "endTime": "1800",
+        "room": "A108"
+      },
+      {
+        "type": "TP",
+        "group": 2,
+        "onWeekday": 5,
+        "startTime": "0800",
+        "endTime": "1000",
+        "room": "A108"
       }
     ]
   }

@@ -1,0 +1,72 @@
+#TimeTable .days {
+  height: 30px;
+}
+
+#TimeTable .hours {
+  width: 10%;
+}
+
+#TimeTable .weekday {
+  width: 15%;
+  position: relative;
+}
+
+#TimeTable .line {
+  height: 60px;
+  position: relative;
+}
+
+#TimeTable .line .hour {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#TimeTable .weekday .class {
+  position: absolute;
+  border: 1px solid black;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+#TimeTable .weekday .class.CM {
+  background-color: lightcoral;
+}
+
+#TimeTable .weekday .class.TD {
+  background-color: lightgreen;
+}
+
+#TimeTable .weekday .class.TP {
+  background-color: lightgoldenrodyellow;
+}
+
+#TimeTable .weekday .class.TP.A {
+  width: 50%;
+  left: 0;
+}
+
+#TimeTable .weekday .class.TP.B {
+  width: 50%;
+  right: 0;
+}
+
+#TimeTable .weekday .background>div.bg-square {
+  border-top: 1px solid gray;
+  height: 30px;
+}
+
+#TimeTable .weekday .background>div.bg-square:last-of-type {
+  border-bottom: 1px solid gray;
+  height: 30px;
+}
+
+#Chooser .availableUEs {
+  max-height: 120px;
+  overflow-y: auto;
+}

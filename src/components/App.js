@@ -39,7 +39,7 @@ class App extends Component {
         </Navbar>
         <Container className="App-content">
           <UEChooser availableUEs={this.state.availableUEs} onAddUE={this.add.bind(this)} onRemoveUE={this.remove.bind(this)} chosenUEs={this.state.chosenUEs} />
-          <UEPreviewer chosenUEs={this.state.chosenUEs} />
+          <UEPreviewer chosenUEs={this.state.chosenUEs} onRemoveUE={this.remove.bind(this)} />
         </Container>
       </div>
     );
